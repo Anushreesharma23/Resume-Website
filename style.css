@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    font-family: 'Nunito Sans', sans-serif;
+    background-color: rgb(190, 190, 190);
+    height: 100vh;
+    width: 434px;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+}
+
+.infoContainer{
+    /* background-color: rgba(171, 175, 185, 0.855); */
+    width: 80vw;
+    height: 58vh;
+    margin: 144px auto;
+    /* padding: 200px;  */
+    display: flex;
+    justify-content: space-around;
+}
+
+.divInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:200px;
+}
+
+.btn{
+    margin-top: 34px;
+}
+
+.btn button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn button:hover{
+    background-color: white;
+    color: black;
+}
+
+.divPic img{
+    /* width: 58vh; */
+    height: 60vh;
+}
+
+.hello{
+    font-size: 65px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.name{
+    font-size: 50px;
+    font-weight: 1000;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.about{
+    font-size: 40px;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.moreabout{
+    font-size: 20px;
+    font-family: 'PT Sans', sans-serif;
+    margin-top: 23px;
+}
