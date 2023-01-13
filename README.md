@@ -1,0 +1,1 @@
+This is a Portfolio website using pure HTML, CSS and javascript.
